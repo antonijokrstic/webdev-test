@@ -1,0 +1,44 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #111111;
+    color: #f4f0e8;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 10%;
+}
+
+.label {
+    color: #a78bfa;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-size: clamp(48px, 9vw, 110px);
+    line-height: 0.95;
+    letter-spacing: -5px;
+    margin: 30px 0;
+}
+
+.description {
+    max-width: 400px;
+    color: #aaaaaa;
+    line-height: 1.7;
+}
+
+a {
+    display: inline-block;
+    margin-top: 25px;
+    color: #111111;
+    background: #a78bfa;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
